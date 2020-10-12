@@ -40,4 +40,4 @@ The business objectives and goals of data analysis are pretty straightforward.
 companies: A table with basic data of companies
   
   2. Sector Classification:
-mapping.csv: This file maps the numerous category names in the companies table(such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying toanalyse hundreds of them.
+mapping.csv: This file maps the numerous category names in the companies table(such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
