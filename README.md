@@ -1,7 +1,7 @@
 <h1>Project Brief</h1>
 <p>Tev, an asset management company, wants to make investments in a few companies. The CEO of Tev wants to understand the global trends in investments so that she can take the investment decisions effectively.</p>
 <h2>Business and Data Understanding</h2>
-<p>Teclov has two minor constraints for investments:<br>
+<p>Tev has two minor constraints for investments:<br>
 <ol><li>It wants to invest between <strong>5 to 15 million USD</strong> per round of investment</li>
   <li>It wants to invest only in <strong>English-speaking countries</strong> because of the ease of communication with the companies it would invest in</li>
 <ul>
