@@ -17,6 +17,13 @@ to invest where others are investing, implying that the 'best' sectors and count
   <li><em>Goals of data analysis:</em> The goals are divided into three sub-goals:
     <ul><li><em>Investment type analysis:</em> Comparing the typical investment amounts in the venture, seed, angel, private equity etc. so that Tev can choose the type that is best suited for their strategy.</li>
       <li><em>Country analysis:</em> Identifying the countries which have been the most heavily invested in the past. These will be Tev’ favourites as well.</li>
-      <li><em>Sector analysis:</em> Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight 'main sectors' provided in the mapping file. The two files — <strong>companies</strong> and <strong>rounds2</strong> — have numerous sub-sector names; hence, we will need to map each sub-sector to its main sector.)</li></ul>
+      <li><em>Sector analysis:</em> Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight 'main sectors' provided in the mapping file. The files — <strong>rounds2</strong> — have numerous sub-sector names; hence, we will need to map each sub-sector to its main sector.)</li></ul>
 <ul><li><em> Company details:</em> <strong>companies</strong>: A table with basic data of companies</ul></li>
   <li><em>Sector Classification:</em> <strong>mapping.csv</strong>: This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.</li></ol></p>
+<h2> <b>CONCLUSION</b></h2><br>
+<p><ul><li><b>rounds_clean.csv</b>; <b>companies_clean.csv<b/> are the new data frame obtained after data cleaning of their respective individual files used in this analysis.</li>
+<li><b>master_df.csv</b> is the main dataframe obtained after merging  and data preprocessing all the individual files<li><br>
+<li>The <i>Venture type</i> of investment is found suitable after the analysis</li><br>
+<li><i>USA, Ind and GBR</i> are the top 3 English speaking countries suitable for this this investment</li><br>
+<li>The sectors <i>'Others', 'Social, Finance, Analytics and Advertising' and 'Cleantech/Semiconductors'</i> are the most heavily invested ones. In case one don't want to consider 'Others' as a sector,<i> 'News, Search and Messaging'</i> is the next best sector.</li>
+</ul><p>
